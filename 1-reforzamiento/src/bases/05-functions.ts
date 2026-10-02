@@ -51,3 +51,11 @@ const myNumbers:number[] = [1, 2, 3, 4, 5];
 myNumbers.forEach((value) => {
    console.log(value);
  })
+
+
+ const nombreFuncion = (value: string)=>{
+    return value;
+ }
+ console.log(nombreFuncion("Hola Mundo"));
+
+
